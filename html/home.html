@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My website</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-<header id="main-header">
-    <div class="container"></div>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header id="main-header">
+      <div class="container">
         <h1>My Bio</h1>
-    <div>
-</header>
+      </div>
+    </header>
 
-<nav id="navbar">
-    <div class="container"></div>
+    <nav id="navbar">
+      <div class="container">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Services</a></li>
+          <li><a href="#main-header">Home</a></li>
+          <li><a href="#welcome">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- You'll need to add an ID "contact" to your contact section -->
+          <li><a href="#services">Services</a></li>
+          <!-- You'll need to add an ID "services" to your services section -->
         </ul>
-    <div>
-</nav>
+      </div>
+    </nav>
 
-<section id="welcome">
-    <div class="container">
+    <section id="welcome">
+      <div class="container">
+        <h1>Welcome to my Website!</h1>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <h1>
+          "Hi, I'm Christos Rentzos, a web page developer with a passion for
+          crafting engaging and user-friendly online experiences. With expertise
+          in HTML, CSS, and JavaScript, I specialize in building visually
+          appealing and functional websites that captivate audiences. My goal is
+          to create seamless user journeys, ensuring that every visitor has a
+          smooth and enjoyable interaction with the web pages I create. Let's
+          collaborate to bring your digital vision to life!"
+        </h1>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
         <p>
-            <h1>Welcome to my Website!</h1>
+          If you'd like to get in touch with me, please reach out through the
+          following means:
         </p>
-    </div>
-<div class="container">
-</section id=main>
-    <div class="container">
+        <ul>
+          <li>
+            Email: <a href="mailto:example@example.com">example@example.com</a>
+          </li>
+          <li>Phone: +123 456 7890</li>
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/example/" target="_blank"
+              >My LinkedIn Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2>Services Offered</h2>
         <p>
-            <h1>"Hi, I'm Christos Rentzos, a web page developer with a passion for crafting
-            engaging and user-friendly online experiences. With expertise in HTML, CSS, 
-            and JavaScript, I specialize in building visually appealing and functional websites 
-            that captivate audiences. My goal is to create seamless user journeys, ensuring that 
-            every visitor has a smooth and enjoyable interaction with the web pages I create. 
-            Let's collaborate to bring your digital vision to life!"
-            </h1>
+          As a passionate web developer, I offer a range of services including:
         </p>
-    </div>
-<section>
+        <ul>
+          <li>Website Development</li>
+          <li>Web Application Development</li>
+          <li>Responsive Web Design</li>
+          <li>Performance Optimization</li>
+        </ul>
+      </div>
+    </section>
 
-<aside id="sidebar">
-    <p>
-
-    </p>
-</aside>
-</div>
-
-<footer id="main-footer">
-    <p>Copyright &copy; My Bio</p>
-</footer>
-    
-</body>
+    <footer id="main-footer">
+      <p>Copyright &copy; My Bio</p>
+    </footer>
+  </body>
 </html>
